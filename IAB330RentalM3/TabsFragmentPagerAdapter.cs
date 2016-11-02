@@ -4,6 +4,11 @@ using Java.Lang;
 
 namespace IAB330RentalM3
 {
+    ///<summary>
+    /// this is mostly copied from here:
+    /// http://www.appliedcodelog.com/2016/05/material-design-tab-in-xamarin-android.html
+    /// original author: Suchith Madavu 
+    ///</<summary>
     public class TabsFragmentPagerAdapter : FragmentPagerAdapter
     {
         private readonly Fragment[] fragments;
